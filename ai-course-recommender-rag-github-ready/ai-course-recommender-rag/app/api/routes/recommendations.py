@@ -21,7 +21,7 @@ def recommend_courses(request: RecommendationRequest, database_session: Session 
     distance = Course.embedding.cosine_distance(query_embedding).label("distance")
 
     statement = (
-        select(Course, distance).where(Course.embedding.is_not(None)).order_by(distance).limit(request.limit))
+        select(Course, distance).where(Course.embedding.is_not(None), distance <= 0.60).order_by(distance).limit(request.limit))
     
     rows = database_session.execute(statement).all()
 
