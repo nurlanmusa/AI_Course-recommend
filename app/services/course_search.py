@@ -15,7 +15,7 @@ def search_courses(
 
     statement = (
     select(Course, distance)
-    .where(Course.embedding.is_not(None), distance <= 0.60)
+    .where(Course.embedding.is_not(None), distance <= 0.50)
     .order_by(distance)
     .limit(limit)
 )
