@@ -127,4 +127,4 @@ Existing tests cover the skill-extraction endpoint and validation of empty reque
 
 ## Notes
 
-The repository is provided as a portfolio code sample. University course data and model weights are not redistributed. The CSV example uses synthetic entries. No license is specified; add a license only if you wish to grant reuse rights.
+The repository is provided as a portfolio code sample.
