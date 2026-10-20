@@ -35,6 +35,10 @@ flowchart TD
 
 Python · FastAPI · Sentence Transformers · PostgreSQL · pgvector · SQLAlchemy · Alembic · Ollama · httpx · pytest
 
+
+![Semantic recommendations](sample_photo/Screenshot retrieval result.png)
+
+
 ## Local setup
 
 Prerequisites: Python 3.11+ (subject to compatibility of the pinned dependencies), PostgreSQL with the **pgvector extension installed**, and optionally Ollama for the RAG endpoint.
