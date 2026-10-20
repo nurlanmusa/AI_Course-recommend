@@ -66,7 +66,10 @@ Prerequisites: Python 3.11+ (subject to compatibility of the pinned dependencies
    uvicorn app.main:app --reload
    ```
 
-5. Open http://127.0.0.1:8000/docs for interactive API documentation. The first embedding request downloads the sentence-transformer model unless it is cached.
+5. Wait until the terminal displays "Application startup complete." before opening the API documentation at http://127.0.0.1:8000/docs
+   
+7. Open http://127.0.0.1:8000/docs for interactive API documentation. The first embedding request downloads the sentence-transformer model unless it is cached.
+   
 
 ### Loading example courses
 
