@@ -13,6 +13,11 @@ A **backend prototype** for finding relevant university courses from user-specif
 - **Batch ingestion & embedding generation** from CSV and structured Åbo Akademi course JSONL.
 - **Alembic database migrations**, including HNSW index on non-null embeddings.
 
+## Dataset
+
+The project uses university course information collected from publicly accessible sources. The original dataset is not included in this repository because it contains unprocessed information, including instructor names and contact details.
+
+
 ## Architecture
 
 ```mermaid
