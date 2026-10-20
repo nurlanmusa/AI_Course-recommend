@@ -36,8 +36,8 @@ flowchart TD
 Python · FastAPI · Sentence Transformers · PostgreSQL · pgvector · SQLAlchemy · Alembic · Ollama · httpx · pytest
 
 
-![Semantic recommendations](sample_photo/Screenshot retrieval result.png)
-
+![Semantic recommendations](sample_photo/ScreenshotRetrievalResult.png)
+![RAG recommendations](sample_photo/ScreenshotRAG.png)
 
 ## Local setup
 
